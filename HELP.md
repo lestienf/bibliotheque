@@ -51,7 +51,7 @@ Critères d’acceptation (Given/When/Then)
 - CA1 – Réservation en attente (pas d’exemplaire disponible)
   - Étant donné un lecteur ACTIVE et un livre sans exemplaire disponible
   - Quand je demande une réservation
-  - Alors la réservation est créée avec status = WAITING, un rang ≥ 1 et une réponse 201 Created contenant id, readerId, bookId, status, position, createdAt
+  - Alors la réservation est créée avec status = WAITING une réponse 201 Created contenant id, readerId, bookId, status, position, createdAt
 
 - CA2 – Réservation avec exemplaire disponible (mise de côté)
   - Étant donné un lecteur ACTIVE et un livre avec au moins un exemplaire disponible
