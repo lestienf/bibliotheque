@@ -1,9 +1,9 @@
-# Ma bibliothèque
+# Marche à suivre
 
-## Première User Story
+## Analyse de l'US et de ses critères d'acceptation
 
-Titre: US-01 – Inscrire un lecteur
-- En tant que bibliothécaire, je veux inscrire un nouveau lecteur avec son nom et son email afin qu’il puisse emprunter des ouvrages.
+US-01 – Inscrire un **LECTEUR**
+- En tant que bibliothécaire, je veux **INSCRIRE** un nouveau **LECTEUR** avec son **NOM** et son **EMAIL** afin qu’il puisse emprunter des ouvrages.
 
 Règles métier
 - L’email du lecteur doit être unique.
@@ -29,3 +29,14 @@ Critères d’acceptation (Given/When/Then)
     - Quand je soumets l’inscription
     - Alors la création est refusée avec une erreur de validation (400 Bad Request) et des détails sur les champs en erreur
 
+
+## Résultats:
+
+Notre cas d'usage est le suivant : Inscription d'un lecteur à l'aide de nom et email.
+
+## Etapes à suivre :
+
+1. J'écris mon test unitaire concernant le premier scénario ou critère d'acceptation
+2. Je fais passer au vert mon test
+3. Je refactor si besoin
+4. Je passe au second critère et ainsi de suite.
